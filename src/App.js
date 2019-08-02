@@ -10,10 +10,14 @@ import config from './config';
 class App extends Component {
   constructor(props){
     super(props);
-    Firebase.initializeApp(config.firebase);
+
+    this.state = {};
   }
 
+  
+
   render(){
+    
     return (
       <div className="App">
         <Login/>
